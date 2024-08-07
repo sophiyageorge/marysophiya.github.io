@@ -766,8 +766,8 @@ document.getElementById("form").addEventListener("submit", function (event) {
 
   btn.value = "Sending...";
 
-  // const serviceID = "service_9iaj7zg";
-  // const templateID = "template_2rnaydi";
+   const serviceID = "service_9iaj7zg";
+   const templateID = "template_2rnaydi";
 
   emailjs.sendForm(serviceID, templateID, this).then(
     () => {
